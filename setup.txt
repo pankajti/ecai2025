@@ -1,0 +1,2 @@
+export PATH="$HOME/Library/TinyTeX/bin/universal-darwin:$PATH"
+export QUARTO_CHROMIUM_HEADLESS_MODE=new

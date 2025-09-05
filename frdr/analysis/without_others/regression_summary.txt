@@ -1,0 +1,27 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    CAY   R-squared:                       0.016
+Model:                            OLS   Adj. R-squared:                  0.012
+Method:                 Least Squares   F-statistic:                     3.979
+Date:                Sun, 18 May 2025   Prob (F-statistic):            0.00793
+Time:                        17:31:40   Log-Likelihood:                 1130.9
+No. Observations:                 720   AIC:                            -2254.
+Df Residuals:                     716   BIC:                            -2236.
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const            0.0059      0.005      1.243      0.214      -0.003       0.015
+inflation       -0.0145      0.011     -1.372      0.171      -0.035       0.006
+employment       0.0037      0.011      0.332      0.740      -0.018       0.026
+FedFundsRate    -0.0028      0.001     -2.971      0.003      -0.005      -0.001
+==============================================================================
+Omnibus:                       29.344   Durbin-Watson:                   1.051
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               64.731
+Skew:                          -0.202   Prob(JB):                     8.79e-15
+Kurtosis:                       4.412   Cond. No.                         24.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

@@ -1,0 +1,30 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    CAY   R-squared:                       0.018
+Model:                            OLS   Adj. R-squared:                  0.012
+Method:                 Least Squares   F-statistic:                     3.248
+Date:                Tue, 29 Jul 2025   Prob (F-statistic):             0.0118
+Time:                        17:56:41   Log-Likelihood:                 1131.5
+No. Observations:                 720   AIC:                            -2253.
+Df Residuals:                     715   BIC:                            -2230.
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const            4.6640      4.537      1.028      0.304      -4.243      13.571
+inflation       -4.6725      4.537     -1.030      0.303     -13.580       4.235
+employment      -4.6540      4.537     -1.026      0.305     -13.561       4.253
+other           -4.6582      4.537     -1.027      0.305     -13.566       4.249
+FedFundsRate    -0.0028      0.001     -3.004      0.003      -0.005      -0.001
+==============================================================================
+Omnibus:                       28.939   Durbin-Watson:                   1.056
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               64.035
+Skew:                          -0.195   Prob(JB):                     1.24e-14
+Kurtosis:                       4.408   Cond. No.                     1.87e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.87e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
